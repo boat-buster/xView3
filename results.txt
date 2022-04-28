@@ -1,2 +1,0 @@
-Results:
-{'loc_fscore': 0.0002741541203079665, 'loc_fscore_shore': 0.0005893793835091648, 'vessel_fscore': 0.7777777777777777, 'fishing_fscore': 0.4444444444444444, 'length_acc': 0.0, 'aggregate': 0.00012187859184971228}
