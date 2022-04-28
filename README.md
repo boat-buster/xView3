@@ -92,11 +92,11 @@ To activate the environment and load the jupyter labs run
 - `conda activate xview3`
 - `jupyter lab`
 ## Downloading the data  
-- Download the train.csv.tgz, validation.csv.tgz, and extract both to strip the .tgz 
+- Download the `/labels` folder from the github repository
 - Download shoreline/train.tar.gz, and shoreline/validation.tar.gz 
-- Download validation.txt and train.txt into `/reference` 
+- Download the `/dataDownloads` folder from the github repository
 
-Navigate to /reference and run 
+Navigate to `/dataDownloads` and run 
 - `aria2c --input-file=validation.txt --auto-file-renaming=false --continue=true --dir=./data/big/validation/ --dry-run=false`
 - `aria2c --input-file=train.txt --auto-file-renaming=false --continue=true --dir=./data/big/training/ --dry-run=false`
 
