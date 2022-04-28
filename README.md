@@ -9,7 +9,8 @@ The model is designed for libraries that exist only in Linux. Recommend Ubuntu 2
 
 ### Required platforms: Prior to creating environment install 
 Anaconda: package manager and python interpreter: https://www.anaconda.com/products/individual#linux. 
-- Download and run the installer.sh file from the website 
+- Download the installer.sh file from the website 
+- Run the installer using `.\Anaconda3-2021.05-Linux-x86_64.sh`
 
 Aria2: Download utility: https://github.com/aria2/aria2/releases/tag/release-1.36.0
 - Download the source code, no installation needed 
