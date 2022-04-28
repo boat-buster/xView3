@@ -2,18 +2,18 @@
 XView3 Model Documentation 
 All files can be found at the GitHub repository, https://github.com/boat-buster/xview3-reference.git 
 
-# System Requirements 
+## System Requirements 
 
-## Compatibility: 
+### Compatibility: 
 The model is designed for libraries that exist only in Linux. Recommend Ubuntu 20.04. 
 
-## Required platforms: Prior to creating environment install 
+### Required platforms: Prior to creating environment install 
 Anaconda: package manager and python interpreter: https://www.anaconda.com/products/individual#linux. 
 - Download and run the installer.sh file from the website 
 
 Aria2: Download utility: https://github.com/aria2/aria2/releases/tag/release-1.36.0
 - Download the source code, no installation needed 
-## Storage Requirements: 
+### Storage Requirements: 
 Raw Data and source code: 2tb 
 
 Chipped Data: There are two options for chips, limited and full.  
@@ -105,9 +105,7 @@ NOTE: The train download will take several hours as it is very large
 To unpack the files, navigate into the training and validation subdirectories and run  
 - `for file in *.tar.gz; do tar xzvf "${file}" && rm "${file}"; done`
 ## Running the notebook 
-All steps to load datasets and conduct training are housed in the jupyter notebook file. 
-
-Open the notebook 
+All steps to load datasets and conduct training are housed in the jupyter notebook file.  
 - `conda activate xview3`
 - `jupyter lab`
 
