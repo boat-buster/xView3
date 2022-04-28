@@ -176,3 +176,5 @@ The final block in the notebook will automatically write out the learning rate, 
 
 ## Runtime notifications 
 The jupyter notebook includes functionality to ping a Telegram bot to send messages when the runtime finished successfully, or errors out. The chat group to receive notifications from the bot is linked here. https://t.me/+FMYhbH_VaFEwZjRh
+
+Messages can be passed to the notifier bot using `notifier.telegram_notify(message)` 
